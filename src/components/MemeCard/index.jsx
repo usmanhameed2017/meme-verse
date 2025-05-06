@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 import { FaEdit } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 function MemeCard({ name, url }) 
 {
@@ -14,8 +15,10 @@ function MemeCard({ name, url })
       </Card.Body>
 
       <Card.Footer className='d-grid'>
-        <Button variant="outline-info" href={`/edit?image_url=${url}`}> 
-        <FaEdit /> Use Template </Button>
+        <Link to={`/edit?image_url=${url}`}>
+          <Button variant="outline-info"> 
+          <FaEdit /> Use Template </Button>
+        </Link>
       </Card.Footer>
 
     </Card>
