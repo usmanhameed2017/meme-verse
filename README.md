@@ -2,7 +2,7 @@
 
 **MemeVerse** is a fun and interactive meme generator built with React. It allows users to generate, edit, and download high-resolution memes without any watermark — for free!
 
-- Check out the live app here: [meme-verse](meme-verse-silk.vercel.app)
+- Check out the live app here: [meme-verse](https://meme-verse-silk.vercel.app)
 
 ---
 
