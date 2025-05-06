@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  font-family: sans-serif;
+  font-size: 19px;
+}
+
+.form-control{
+  border: 2px gray dotted;
+  border-radius: 10px;
+}
+
+.card{
+  border-radius: 10px;
+}
